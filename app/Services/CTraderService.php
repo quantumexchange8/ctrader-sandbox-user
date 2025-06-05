@@ -16,15 +16,15 @@ use Illuminate\Support\Facades\Log;
 
 class CTraderService
 {
-    private string $host = "https://live-chsandbox2.webapi.ctrader.com";
+    private string $host = "https://demo-chsandbox2.webapi.ctrader.com";
     private string $port = "8443";
-    private string $login = "10012";
-    private string $password = "Test1234.";
-    private string $baseURL = "https://live-chsandbox2.webapi.ctrader.com:8443";
-    private string $demoURL = "https://demo-chsandbox2.webapi.ctrader.com:8443";
-    private string $token = "6f0d6f97-3042-4389-9655-9bc321f3fc1e";
+    private string $login = "30258";
+    private string $password = "5Pns0B_G";
+    private string $baseURL = "https://demo-chsandbox2.webapi.ctrader.com:8443";
+    // private string $demoURL = "https://demo-chsandbox2.webapi.ctrader.com:8443";
+    private string $token = "caa906fa-20e8-4894-a5d2-9334112f2623";
     private string $brokerName = "chsandbox2";
-    private string $environmentName = "live";
+    private string $environmentName = "demo";
 
     public function connectionStatus(): array
     {
