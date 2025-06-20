@@ -246,6 +246,7 @@ class AccountController extends Controller
                     'leverage' => $account->margin_leverage,
                     'equity' => $account->equity,
                     'account_type' => $account->accountType->slug,
+                    'account_group' => $account->accountType->account_group,
                     'account_type_leverage' => $account->accountType->leverage,
                     'account_type_color' => $account->accountType->color,
                     'account_category' => $account->accountType->category,

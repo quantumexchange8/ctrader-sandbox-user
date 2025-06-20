@@ -155,7 +155,7 @@ watchEffect(() => {
                             backgroundColor: `#${account.account_type_color}`,
                         }"
                     >
-                        {{ $t(`public.${account.account_type}`) }}
+                        {{ account.account_group }}
                     </div>
                     <IconAlertCircleFilled :size="20" stroke-width="1.25" class="text-error-500" v-if="account.is_active === 'inactive'" v-tooltip.top="$t('public.account_inactive_warning')" />
                 </div>

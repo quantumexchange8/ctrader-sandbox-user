@@ -147,7 +147,7 @@ const openDemoAccount = () => {
                                 <span
                                     class="flex-grow text-sm font-semibold transition-colors duration-300 group-hover:text-primary-700 text-gray-950"
                                 >
-                                    {{ $t(`public.${account.slug}`) }}
+                                    {{ account.account_group }}
                                 </span>
                                 <IconCircleCheckFilled v-if="selectedAccountType === account.account_group" size="20" stroke-width="1.25" color="#2E7D32" />
                             </div>
